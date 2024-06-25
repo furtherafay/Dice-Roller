@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    background-color: rgb(219, 213, 213);
+}
+
+#FullCont{
+    width: 100vh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container{
+    text-align: center;
+    height: auto;
+    width:auto;
+    margin: 30px;
+    min-height: 500px;
+    background-color: white;
+    border-radius: 25px;
+    padding: 20px;
+}
+
+#container h1{
+    color: brown;
+}
+
+button{
+    height: 40px;
+    border-radius: 20px;
+}
+
+button:hover{
+    background-color: rgb(196, 196, 196);
+}
+
+#numDice{
+    text-align: center;
+    border-radius: 10px;
+}
+
+#ImageContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+}
